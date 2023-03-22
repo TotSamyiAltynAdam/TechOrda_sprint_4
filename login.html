@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="login.css">
+    <title>Login Page</title>
+</head>
+<body onload ="initArray()">
+    <header>
+        <nav>
+            <div class="logo">twitter</div>     
+            <div class="options">
+                <div class="tweets">tweets</div>
+                <div class="login">login</div>
+                <div class="register"><a href="main.html">register</a></div>
+            </div>
+        </nav>
+    </header>
+    <div class="loginPage" id="loginPage">
+        <form action="#">
+            <div>email</div>
+            <input type="text" id="email">
+            <div>password</div>
+            <input type="password" id="password">
+            <input type="button" id="signIn" value="sign in">
+        </form>
+    </div>
+    <script src="sign_in.js"></script>
+</body>
+</html>

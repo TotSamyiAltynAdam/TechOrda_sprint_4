@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body onload="initArray()">
+    <header>
+        <nav>
+            <div class="logo">twitter</div>
+            <div class="options">
+                <div class="tweets">tweets</div>
+                <div class="login"><a href="login.html">login</a></div>
+                <div class="register">register</div>
+            </div>
+        </nav>
+    </header>
+    <div class="registeration">
+        <form action="#">
+            <div>email</div>
+            <input type="text" id="email">
+            <div>password</div>
+            <input type="password" id="password">
+            <div>full name:</div>
+            <input type="text" id="fullName">
+            <div>country:</div>
+            <select name="countries" id="country">
+                <option value="Kazakhstan">Kazakhstan</option>
+                <option value="South Korea">South Korea</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="United State of America">United State of America</option>
+                <option value="Russia">Russia</option>
+                <option value="Kyrgyzstan">Kyrgyzstan</option>
+                <option value="China">China</option>
+            </select>
+            <div>birthdate:</div>
+            <input type="date" id="birthdate">
+            <br>
+            <input type="button" id="registerButton" value="register">
+        </form>
+        <script src="main.js"></script>
+    </div>
+</body>
+</html>
